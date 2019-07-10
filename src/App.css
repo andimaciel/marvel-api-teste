@@ -1,0 +1,44 @@
+/* General */
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Título dos Quadrinhos */
+h1 {
+    font-family: 'Bangers', cursive;
+    color: #cf2c2c;
+}
+
+/* Quadrinhos - Container */
+.comic {
+    background: #140000;
+    color: whitesmoke;
+    border-radius: 10px;
+    height: 200px;
+    width: 40%;
+    margin: 20px;
+    padding: 20px;
+}
+.comic-thumbnail-container {
+    float: left;
+    margin: 10px;
+}
+
+/* Quadrinhos - Informações */
+.comic-data-container {
+    float: left;
+    line-height: .8;
+    margin: 10px 10px 10px 30px;
+}
+
+/* Quadrinhos - Tamanho */
+.comic-thumbnail {
+    width: 115px;
+    transition-duration: .3s;
+    transition-delay: .2s;
+    transition-timing-function: ease;
+}
+    .comic-thumbnail:hover {
+        box-shadow: 0 0 20px red;
+        transform: scale(1.1);
+    }
